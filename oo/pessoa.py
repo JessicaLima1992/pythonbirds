@@ -18,3 +18,7 @@ if __name__ == '__main__':
     print(jardson.idade)
     for filho in jardson.filhos:
         print(filho.nome)
+    jardson.sobrenome = 'Lima'
+    del jardson.filhos
+    print(jardson.__dict__)
+    print(jessica.__dict__)
